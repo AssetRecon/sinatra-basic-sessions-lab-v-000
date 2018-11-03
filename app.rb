@@ -12,6 +12,7 @@ end
   end
 
   post '/checkout' do
+    @session = session
 
     erb :shopping_cart
   end
