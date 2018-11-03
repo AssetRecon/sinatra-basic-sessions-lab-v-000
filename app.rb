@@ -12,7 +12,7 @@ end
   end
 
   post '/checkout' do
-    @item =
+
   end
 
 end
