@@ -14,7 +14,7 @@ end
   post '/checkout' do
     @session = session
     @cart = params["item"]
-    session[item] = @cart
+    session["item"] = @cart
 
     erb :shopping_cart
   end
