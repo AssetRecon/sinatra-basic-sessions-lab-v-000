@@ -12,7 +12,7 @@ end
   end
 
   post '/checkout' do
-    @session = session
+    @socks = session[:item]
 
     erb :shopping_cart
   end
