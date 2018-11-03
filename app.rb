@@ -12,7 +12,7 @@ end
   end
 
   post '/checkout' do
-    @item = session[:item]
+    @cart = session[:item]
 
     erb :shopping_cart
   end
