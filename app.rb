@@ -13,6 +13,7 @@ end
 
   post '/checkout' do
 
+    erb :shopping_cart
   end
 
 end
